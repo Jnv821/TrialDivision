@@ -1,0 +1,35 @@
+==== Test Number 1 ====
+Result for 10^1: 0.001000000000
+Result for 10^2: 0.008000000000
+Result for 10^3: 0.106000000000
+Result for 10^4: 1.312000000000
+Result for 10^5: 16.168000000000
+Result for 10^6: 198.781000000000
+==== Test Number 2 ====
+Result for 10^1: 0.000000000000
+Result for 10^2: 0.009000000000
+Result for 10^3: 0.105000000000
+Result for 10^4: 1.376000000000
+Result for 10^5: 16.991000000000
+Result for 10^6: 197.263000000000
+==== Test Number 3 ====
+Result for 10^1: 0.001000000000
+Result for 10^2: 0.009000000000
+Result for 10^3: 0.113000000000
+Result for 10^4: 1.327000000000
+Result for 10^5: 16.294000000000
+Result for 10^6: 211.523000000000
+==== Test Number 4 ====
+Result for 10^1: 0.001000000000
+Result for 10^2: 0.009000000000
+Result for 10^3: 0.130000000000
+Result for 10^4: 1.540000000000
+Result for 10^5: 17.422000000000
+Result for 10^6: 210.028000000000
+==== Test Number 5 ====
+Result for 10^1: 0.001000000000
+Result for 10^2: 0.009000000000
+Result for 10^3: 0.112000000000
+Result for 10^4: 1.451000000000
+Result for 10^5: 17.304000000000
+Result for 10^6: 210.702000000000

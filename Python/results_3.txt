@@ -1,0 +1,52 @@
+==== Test Number: 1 ====
+Result time for 10^1: 0.000299300 seconds
+Result time for 10^2: 0.008085800 seconds
+Result time for 10^3: 0.068075000 seconds
+Result time for 10^4: 0.687756400 seconds
+Result time for 10^5: 6.592057100 seconds
+Result time for 10^6: 66.405384700 seconds
+==========================
+
+==== Test Number: 2 ====
+Result time for 10^1: 0.000655000 seconds
+Result time for 10^2: 0.006336200 seconds
+Result time for 10^3: 0.082220300 seconds
+Result time for 10^4: 0.640153900 seconds
+Result time for 10^5: 6.499419100 seconds
+Result time for 10^6: 64.886456300 seconds
+==========================
+
+==== Test Number: 3 ====
+Result time for 10^1: 0.000614500 seconds
+Result time for 10^2: 0.006230400 seconds
+Result time for 10^3: 0.070633800 seconds
+Result time for 10^4: 0.636104600 seconds
+Result time for 10^5: 6.322762200 seconds
+Result time for 10^6: 64.676238500 seconds
+==========================
+
+==== Test Number: 4 ====
+Result time for 10^1: 0.000648700 seconds
+Result time for 10^2: 0.006257500 seconds
+Result time for 10^3: 0.062632500 seconds
+Result time for 10^4: 0.642833400 seconds
+Result time for 10^5: 6.345929700 seconds
+Result time for 10^6: 64.561216500 seconds
+==========================
+
+==== Test Number: 5 ====
+Result time for 10^1: 0.000621700 seconds
+Result time for 10^2: 0.006268600 seconds
+Result time for 10^3: 0.061760300 seconds
+Result time for 10^4: 0.624227500 seconds
+Result time for 10^5: 6.303759500 seconds
+Result time for 10^6: 64.592272600 seconds
+==========================
+
+==== Averages ===
+Average for 10^1 ran 5 times: 0.000567840 seconds
+Average for 10^2 ran 5 times: 0.006635700 seconds
+Average for 10^3 ran 5 times: 0.069064380 seconds
+Average for 10^4 ran 5 times: 0.646215160 seconds
+Average for 10^5 ran 5 times: 6.412785520 seconds
+Average for 10^6 ran 5 times: 65.024313720 seconds
