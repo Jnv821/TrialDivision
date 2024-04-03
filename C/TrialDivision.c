@@ -2,7 +2,7 @@
 #include <time.h>
 #include <math.h>
 #include <string.h>
-
+#include <stdbool.h>
 const char *filename = "./result.txt";
 
 
@@ -37,6 +37,31 @@ void trialDivision(int n){
     printf("true\n");
 }
 
+bool trialDivisionNoPrint(int n){
+    if (n <= 1)
+    {
+        //printf("false\n");
+        return false;   
+    } else if (n <= 3)
+    {
+        //printf("false\n");
+        return false;
+    } else
+    {
+    for(size_t m = 3; m < sqrt(n); m += 2 )
+        {
+            if(n % m == 0)
+            {
+               //printf("false\n");
+               return false;
+            }
+        }
+    }
+    //printf("true\n");
+    return true;
+}
+
+
 double runFunction(){
     double resultTimes[6];
     for (size_t i = 0; i < 6; i+=1)
@@ -44,7 +69,7 @@ double runFunction(){
         double startTime = (double)clock()/CLOCKS_PER_SEC;
         for (size_t j = 0; j < pow(10,i+1); j+=1)
         {
-            trialDivision(j);
+            trialDivisionNoPrint(j);
         }
         double endTime = (double)clock()/CLOCKS_PER_SEC;
         double timeElapsed = endTime - startTime;
