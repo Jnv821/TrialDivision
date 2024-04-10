@@ -19,7 +19,9 @@ En este caso intentaremos optimizar el algoritmo *Trial Division* lo máximo pos
 ## Fórmula de Willans
 
 En 1964 Willans concibió una formula generadora de números primos. 
-$p_{n} = 1 + \sum_{i=1}^{2^n}\left \lfloor \left (  \frac{n}{\sum_{j=1}^{i}\left \lfloor (\cos \pi \frac{(j-1)!+1}{j})^2 \right \rfloor}\right )^\frac{1}{n} \right \rfloor$
+```math
+p_{n} = 1 + \sum_{i=1}^{2^n}\left \lfloor \left (  \frac{n}{\sum_{j=1}^{i}\left \lfloor (\cos \pi \frac{(j-1)!+1}{j})^2 \right \rfloor}\right )^\frac{1}{n} \right \rfloor
+```
 
 Esta formula es bastante astuta ya que utiliza funciones algebraicas para expresar condiciones.
 
