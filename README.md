@@ -26,28 +26,28 @@ Esta formula es bastante astuta ya que utiliza funciones algebraicas para expres
 ### Funcionamiento de la formula de Willans
 
 Empecemos con la parte más interna que demuestra un patrón interesante:
-$
+$$
 \frac{(j-1)!+1}{j}
-$
+$$
 Al aplicar esta formula a diferentes números resulta que obtenemos dos tipos de valores. Enteros y Reales. Los enteros los obtenemos cuando *j* es un número primo
-$
+$$
 j = 5
-$
-$
+$$
+$$
 (5-1)! = 1 · 2 · 3 · 4 · 5 = 24
-$
-$
+$$
+$$
 \frac{24+1}{5} = \frac{25}{5} = 5
-$
-$
+$$
+$$
 j = 6
-$
-$
+$$
+$$
 (6-1)! = 1·2·3·4·5 = 120
 $
-$
+$$
 \frac{120+1}{6} = \frac{121}{6}
-$
+$$
 Aquí una tabla con los primeros 10 números. Como se puede observar el resultado es cada vez más grande. Esto será problemático si queremos utilizar esta fórmula para calcular el número primo *n*.
 
 | $J$   | $Resultado$     | $J$    | $Resultado$           |
@@ -132,7 +132,7 @@ La primera optimización que podemos utilizar es intercambiar el rango que estam
 
 Esta optimización es posible gracias a lo siguiente:
 - Si $n$ no es primo, entonces $n = ab$ donde $a < n$ y  $a < b$, estos factores no pueden ser mayores que $\sqrt{n}$. De tal forma podemos parar de buscar cuando llegamos a $\sqrt{n}$
-- Si tuviesemos un facto donde $f > \sqrt{n}$ entonces $$
+- Si tuviesemos un facto donde $f > \sqrt{n}$ entonces
 $$f':= \frac{n}{f} < \frac{n}{\sqrt{n}} = \sqrt{n}$$
 
 También es un factor.
