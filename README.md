@@ -33,21 +33,27 @@ Al aplicar esta formula a diferentes números resulta que obtenemos dos tipos de
 $$
 j = 5
 $$
+
 $$
 (5-1)! = 1 · 2 · 3 · 4 · 5 = 24
 $$
+
 $$
 \frac{24+1}{5} = \frac{25}{5} = 5
 $$
+
 $$
 j = 6
 $$
+
 $$
 (6-1)! = 1·2·3·4·5 = 120
-$
+$$
+
 $$
 \frac{120+1}{6} = \frac{121}{6}
 $$
+
 Aquí una tabla con los primeros 10 números. Como se puede observar el resultado es cada vez más grande. Esto será problemático si queremos utilizar esta fórmula para calcular el número primo *n*.
 
 | $J$   | $Resultado$     | $J$    | $Resultado$           |
